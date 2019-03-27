@@ -1,8 +1,9 @@
 // URL String
 rootURL     = "http://www.cis355.com/";
-userNameURL = "alpero/";
-healthyuURL = "HealthyU/";
+userNameURL = "projects/";
+healthyuURL = "healthyu/";
 URL         = rootURL + userNameURL + healthyuURL;
+URL         = ""; // remove for phonegap
 
 // Get ID from URL
 function getID() {

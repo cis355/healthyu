@@ -1,5 +1,5 @@
 <?php
-include 'database.php';
+require '../database/database.php';
 session_start();
 $pdo = Database::connect();
 if ($_GET['id'] == "undefined") 

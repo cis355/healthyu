@@ -3,19 +3,22 @@
 <head>
     <meta charset="utf-8">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet" type="text/css" />
     <link href="css/hu.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/hu_vars.js"></script>
     <script>
-        $.get(URL + 'session.php', function(data) { 
+	    // $.get(URL + 'session.php', function(data) { 
+		/*
+		$.get('session.php', function(data) { 
             if( data == "expired" ) { 
                 location.href = "hu_login.html"; 
             }
         });
+		*/
         
         var id = getID();
+		console.log(id);
         
         function retrievePage() {
             xhttp = new XMLHttpRequest();
@@ -24,7 +27,6 @@
                     document.getElementById("body").innerHTML = xhttp.responseText;
                 }
             };
-            
             xhttp.open("GET", URL + "hu_transactions_list.php?id=" + id, true);
             xhttp.send();
         }
@@ -37,7 +39,6 @@
                     document.getElementById("body").innerHTML = xhttp.responseText;
                 }
             };
-            
             xhttp.open("GET", URL + "hu_transactions_list.php?id=" + id, true);
             xhttp.send();
         }

@@ -1,5 +1,5 @@
 <?php
-    require 'database.php';
+    require '../database/database.php';
     
     if (session_status() !== PHP_SESSION_ACTIVE) session_start();
     

@@ -1,5 +1,5 @@
 <?php 
-	require 'database.php';
+	require '../database/database.php';
 	
 	// if values were passed, validate and insert
 	if (isset($_POST['insert'])) {
