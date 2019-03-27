@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/hu.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/hu_vars.js"></script>
+    <script type="text/javascript">
+        $.get(URL + 'admin.php', function(data) { 
+            if( data == "false" ) {
+                location.href = "hu_start.html";
+            }
+        });
+        
+        var id = getID();
+
+        function retrievePage() {
+            xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (xhttp.readyState == 4 && xhttp.status == 200) {
+                    document.getElementById("body").innerHTML = xhttp.responseText;
+                }
+            };
+
+            xhttp.open("GET", URL + "hu_transtypes_update.php?id=" + id, true);
+            xhttp.send();
+        }
+        
+        $(document).ready( function() {
+            $("#update").click( function() {
+                var description=$("#description").val();
+                var points=$("#points").val();
+                if(document.getElementById('hu_activity').checked) {
+                    var hu_activity=1;
+                } else {
+                    var hu_activity=0;
+                }
+                if(document.getElementById('strength_activity').checked) {
+                    var strength_activity=1;
+                } else {
+                    var strength_activity=0;
+                }
+                if(document.getElementById('fitness_class').checked) {
+                    var fitness_class=1;
+                } else {
+                    var fitness_class=0;
+                }
+                var dataString=
+                     "id="+id
+                    +"&description="+description
+                    +"&points="+points
+                    +"&hu_activity="+hu_activity
+                    +"&strength_activity="+strength_activity
+                    +"&fitness_class="+fitness_class
+                    +"&update="; 
+                if ($.trim(description).length>0 & $.trim(points).length>0) {
+                    $.ajax( {
+                        type: "POST",
+                        url: URL + "hu_transtypes_update.php",
+                        data: dataString,
+                        crossDomain: true,
+                        cache: false,
+                        beforeSend: function(){ $("#update").val('Connecting...');},
+                        success: function(data){ 
+                            location.href = "hu_transtypes_list.html"; 
+                        }
+                    });
+                }
+                return false;
+            });
+        });
+    </script>
+</head>
+
+<body onload="retrievePage();">
+    <div class="padding">
+        <div id="body"></div>        
+        <div class="form-actions">
+            <input type="button" id="update" class="btn btn-success" value="Update"/>
+            <a class="btn" href="hu_users_list.html">Back</a>
+        </div>
+    </div>
+</body>
+</html>

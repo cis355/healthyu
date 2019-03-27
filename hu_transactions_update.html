@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <link href="css/hu.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/hu_transactions.js"></script>
+    <script src="js/hu_vars.js"></script>
+    <script>
+        $.get(URL + 'session.php', function(data) { 
+            if( data == "expired" ) { 
+                location.href = "hu_login.html"; 
+            }
+        });
+        
+        var id = getID();
+    
+        function retrievePage() {
+            xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (xhttp.readyState == 4 && xhttp.status == 200) {
+                    document.getElementById("body").innerHTML = xhttp.responseText;
+                    calcExercisePoints();
+                }
+            };
+
+            xhttp.open("GET",  URL + "hu_transactions_update.php?id=" + id, true);
+            xhttp.send();
+        }
+        
+        $(document).ready( function() {
+            $("#update").click( function() {
+                var user_id=$("#user_id").val();
+                var transtype_id=$("#transtype_id").val();
+                var trans_date=$("#trans_date").val();
+                var trans_points=$("#trans_points").val();
+                var trans_exercise_points=$("#trans_exercise_points").val();
+                var minutes=$("#minutes").val();  
+                if(document.getElementById('trans_hu_activity').checked) {
+                    var trans_hu_activity=1;
+                } else {
+                    var trans_hu_activity=0;
+                }
+                if(document.getElementById('trans_strength_activity').checked) {
+                    var trans_strength_activity=1;
+                } else {
+                    var trans_strength_activity=0;
+                }
+                if(document.getElementById('trans_fitness_class').checked) {
+                    var trans_fitness_class=1;
+                } else {
+                    var trans_fitness_class=0;
+                }                
+                var dataString=
+                     "id="+id
+                    +"&user_id="+user_id
+                    +"&transtype_id="+transtype_id
+                    +"&trans_date="+trans_date
+                    +"&trans_points="+trans_points
+                    +"&trans_exercise_points="+trans_exercise_points
+                    +"&trans_hu_activity="+trans_hu_activity
+                    +"&trans_strength_activity="+trans_strength_activity
+                    +"&trans_fitness_class="+trans_fitness_class
+                    +"&minutes="+minutes
+                    +"&update=";
+                if (  $.trim(user_id).length>0 
+                    & $.trim(transtype_id).length>0
+                    & $.trim(trans_date).length>0
+                    & $.trim(trans_points).length>0
+                    & $.trim(trans_exercise_points).length>0
+                    & $.trim(trans_strength_activity).length>0 
+                    & $.trim(trans_fitness_class).length>0 
+                    & $.trim(minutes).length>0) {
+                    $.ajax( {
+                        type: "POST",
+                        url: URL + "hu_transactions_update.php",
+                        data: dataString,
+                        crossDomain: true,
+                        cache: false,
+                        beforeSend: function(){ $("#update").val('Connecting...');},
+                        success: function(data){
+                            // location.href = "hu_transactions_list.html"; 
+                        }
+                    });
+                }
+                return false;
+            });
+        });
+    </script>
+</head>
+
+<body onload="retrievePage();">
+    <div class="padding">
+        <div id="body"></div>        
+        <div class="form-actions">
+            <input type="button" id="update" class="btn btn-success" value="Update"/>
+            <a class="btn" href="hu_transactions_list.html">Back</a>
+        </div>
+    </div>
+</body>
+</html>

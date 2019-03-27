@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/hu.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/hu_vars.js"></script>
+    <script>
+        $(document).ready( function() {
+            $("#login").click( function() {
+                var username=$("#username").val();
+                var password_hash=$("#password_hash").val();                
+                var dataString=
+                     "username="+username
+                    +"&password_hash="+password_hash
+                    +"&login=";
+                if(   $.trim(username).length>0 
+                    & $.trim(password_hash).length>0) {
+                    $.ajax( {
+                        type: "POST",
+                        url: URL + "hu_login.php",
+                        data: dataString,
+                        dataType: 'json',
+                        crossDomain: true,
+                        cache: false,
+                        success: function(data){
+                            if(data.valid==true){
+                                location.href = "hu_start.html";
+                            }else{
+                                $("#error").html("invalid username or password");
+                            }
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="padding">
+        <div class="title">HealthyU: Login</div>
+        
+        <div class="control-group">
+            <label class="control-label">username</label>
+            <div class="controls">
+                <input id="username" type="text"  placeholder="username" value="" required>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label">password_hash</label>
+            <div class="controls">
+                <input id="password_hash" type="text" placeholder="password_hash" value="" required>
+            </div>
+        </div>
+        <div id="error" class="error"></div>
+        <div class="form-actions">
+            <input type="button" id="login" class="btn btn-success" value="Login"/>
+        </div>
+    </div>
+</body>
+</html>

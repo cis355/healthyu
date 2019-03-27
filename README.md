@@ -1,2 +1,0 @@
-# healthyu
-HealthyU

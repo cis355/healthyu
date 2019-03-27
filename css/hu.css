@@ -1,0 +1,20 @@
+.padding {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+.title {
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 3vw;
+}
+.font-size {
+    font-size: 1em;
+}
+.btn-size {    
+    width: 15vw;
+}
+.btn-size-back {
+    width: 30vw;
+}
