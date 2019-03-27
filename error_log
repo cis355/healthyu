@@ -140,3 +140,137 @@
 [27-Mar-2019 12:36:58 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 15
 [27-Mar-2019 12:36:58 UTC] PHP Warning:  include(): Failed opening 'database.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 15
 [27-Mar-2019 12:36:58 UTC] PHP Fatal error:  Class 'Database' not found in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 18
+[27-Mar-2019 13:48:11 UTC] PHP Notice:  Undefined index: admin in /home/gcorser/public_html/projects/healthyu/hu_start.php on line 3
+[27-Mar-2019 13:48:12 UTC] PHP Notice:  Undefined index: id in /home/gcorser/public_html/projects/healthyu/session.php on line 3
+[27-Mar-2019 13:48:20 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 26
+[27-Mar-2019 13:48:20 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 29
+[27-Mar-2019 13:57:29 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 26
+[27-Mar-2019 13:57:29 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 29
+[27-Mar-2019 14:43:31 UTC] PHP Notice:  Undefined index: id in /home/gcorser/public_html/projects/healthyu/session.php on line 3
+[27-Mar-2019 14:43:31 UTC] PHP Notice:  Undefined index: admin in /home/gcorser/public_html/projects/healthyu/hu_start.php on line 3
+[27-Mar-2019 14:43:37 UTC] PHP Notice:  Undefined index: id in /home/gcorser/public_html/projects/healthyu/session.php on line 3
+[27-Mar-2019 14:43:37 UTC] PHP Notice:  Undefined index: admin in /home/gcorser/public_html/projects/healthyu/hu_start.php on line 3
+[27-Mar-2019 14:43:43 UTC] PHP Notice:  Undefined index: admin in /home/gcorser/public_html/projects/healthyu/hu_start.php on line 3
+[27-Mar-2019 14:43:43 UTC] PHP Notice:  Undefined index: id in /home/gcorser/public_html/projects/healthyu/session.php on line 3
+[27-Mar-2019 14:43:52 UTC] PHP Notice:  Undefined index: id in /home/gcorser/public_html/projects/healthyu/session.php on line 3
+[27-Mar-2019 14:43:52 UTC] PHP Notice:  Undefined index: admin in /home/gcorser/public_html/projects/healthyu/hu_start.php on line 3
+[27-Mar-2019 14:44:08 UTC] PHP Notice:  Undefined index: admin in /home/gcorser/public_html/projects/healthyu/hu_start.php on line 3
+[27-Mar-2019 14:44:08 UTC] PHP Notice:  Undefined index: id in /home/gcorser/public_html/projects/healthyu/session.php on line 3
+[27-Mar-2019 14:44:09 UTC] PHP Notice:  Undefined index: id in /home/gcorser/public_html/projects/healthyu/session.php on line 3
+[27-Mar-2019 14:44:09 UTC] PHP Notice:  Undefined index: admin in /home/gcorser/public_html/projects/healthyu/hu_start.php on line 3
+[27-Mar-2019 14:44:19 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 26
+[27-Mar-2019 14:44:19 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 29
+[27-Mar-2019 14:44:20 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 26
+[27-Mar-2019 14:44:20 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 29
+[27-Mar-2019 14:44:20 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 26
+[27-Mar-2019 14:44:20 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 29
+[27-Mar-2019 14:44:21 UTC] PHP Notice:  Undefined index: id in /home/gcorser/public_html/projects/healthyu/session.php on line 3
+[27-Mar-2019 14:44:21 UTC] PHP Notice:  Undefined index: admin in /home/gcorser/public_html/projects/healthyu/hu_start.php on line 3
+[27-Mar-2019 14:44:25 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 15
+[27-Mar-2019 14:44:25 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 15
+[27-Mar-2019 14:44:25 UTC] PHP Warning:  include(): Failed opening 'database.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 15
+[27-Mar-2019 14:44:25 UTC] PHP Fatal error:  Class 'Database' not found in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 18
+[27-Mar-2019 14:44:29 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 15
+[27-Mar-2019 14:44:29 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 15
+[27-Mar-2019 14:44:29 UTC] PHP Warning:  include(): Failed opening 'database.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 15
+[27-Mar-2019 14:44:29 UTC] PHP Fatal error:  Class 'Database' not found in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 18
+[27-Mar-2019 14:44:32 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 15
+[27-Mar-2019 14:44:32 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 15
+[27-Mar-2019 14:44:32 UTC] PHP Warning:  include(): Failed opening 'database.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 15
+[27-Mar-2019 14:44:32 UTC] PHP Fatal error:  Class 'Database' not found in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 18
+[27-Mar-2019 14:44:33 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 26
+[27-Mar-2019 14:44:33 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 29
+[27-Mar-2019 14:44:35 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 26
+[27-Mar-2019 14:44:35 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 29
+[27-Mar-2019 14:44:39 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 26
+[27-Mar-2019 14:44:39 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 29
+[27-Mar-2019 14:44:49 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 26
+[27-Mar-2019 14:44:49 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 29
+[27-Mar-2019 14:45:04 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 26
+[27-Mar-2019 14:45:04 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 29
+[27-Mar-2019 14:45:05 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 15
+[27-Mar-2019 14:45:05 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 15
+[27-Mar-2019 14:45:05 UTC] PHP Warning:  include(): Failed opening 'database.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 15
+[27-Mar-2019 14:45:05 UTC] PHP Fatal error:  Class 'Database' not found in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 18
+[27-Mar-2019 14:45:06 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 26
+[27-Mar-2019 14:45:06 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 29
+[27-Mar-2019 14:45:27 UTC] PHP Notice:  Undefined index: id in /home/gcorser/public_html/projects/healthyu/session.php on line 3
+[27-Mar-2019 14:45:27 UTC] PHP Notice:  Undefined index: admin in /home/gcorser/public_html/projects/healthyu/hu_start.php on line 3
+[27-Mar-2019 14:45:32 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 15
+[27-Mar-2019 14:45:32 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 15
+[27-Mar-2019 14:45:32 UTC] PHP Warning:  include(): Failed opening 'database.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 15
+[27-Mar-2019 14:45:32 UTC] PHP Fatal error:  Class 'Database' not found in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 18
+[27-Mar-2019 14:45:33 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 26
+[27-Mar-2019 14:45:33 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 29
+[27-Mar-2019 14:45:37 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 15
+[27-Mar-2019 14:45:37 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 15
+[27-Mar-2019 14:45:37 UTC] PHP Warning:  include(): Failed opening 'database.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 15
+[27-Mar-2019 14:45:37 UTC] PHP Fatal error:  Class 'Database' not found in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 18
+[27-Mar-2019 14:45:40 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 15
+[27-Mar-2019 14:45:40 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 15
+[27-Mar-2019 14:45:40 UTC] PHP Warning:  include(): Failed opening 'database.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 15
+[27-Mar-2019 14:45:40 UTC] PHP Fatal error:  Class 'Database' not found in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 18
+[27-Mar-2019 14:45:40 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 15
+[27-Mar-2019 14:45:40 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 15
+[27-Mar-2019 14:45:40 UTC] PHP Warning:  include(): Failed opening 'database.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 15
+[27-Mar-2019 14:45:40 UTC] PHP Fatal error:  Class 'Database' not found in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 18
+[27-Mar-2019 14:45:53 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 15
+[27-Mar-2019 14:45:53 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 15
+[27-Mar-2019 14:45:53 UTC] PHP Warning:  include(): Failed opening 'database.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 15
+[27-Mar-2019 14:45:53 UTC] PHP Fatal error:  Class 'Database' not found in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 18
+[27-Mar-2019 14:45:58 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 26
+[27-Mar-2019 14:45:58 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 29
+[27-Mar-2019 14:46:01 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 26
+[27-Mar-2019 14:46:01 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 29
+[27-Mar-2019 14:46:02 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 26
+[27-Mar-2019 14:46:02 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 29
+[27-Mar-2019 14:46:04 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 15
+[27-Mar-2019 14:46:04 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 15
+[27-Mar-2019 14:46:04 UTC] PHP Warning:  include(): Failed opening 'database.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 15
+[27-Mar-2019 14:46:04 UTC] PHP Fatal error:  Class 'Database' not found in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 18
+[27-Mar-2019 14:46:05 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 15
+[27-Mar-2019 14:46:05 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 15
+[27-Mar-2019 14:46:05 UTC] PHP Warning:  include(): Failed opening 'database.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 15
+[27-Mar-2019 14:46:05 UTC] PHP Fatal error:  Class 'Database' not found in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 18
+[27-Mar-2019 14:46:07 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 15
+[27-Mar-2019 14:46:07 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 15
+[27-Mar-2019 14:46:07 UTC] PHP Warning:  include(): Failed opening 'database.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 15
+[27-Mar-2019 14:46:07 UTC] PHP Fatal error:  Class 'Database' not found in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 18
+[27-Mar-2019 14:46:09 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 26
+[27-Mar-2019 14:46:09 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 29
+[27-Mar-2019 14:46:13 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 15
+[27-Mar-2019 14:46:13 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 15
+[27-Mar-2019 14:46:13 UTC] PHP Warning:  include(): Failed opening 'database.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 15
+[27-Mar-2019 14:46:13 UTC] PHP Fatal error:  Class 'Database' not found in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 18
+[27-Mar-2019 14:46:13 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 26
+[27-Mar-2019 14:46:13 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 29
+[27-Mar-2019 14:46:27 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 15
+[27-Mar-2019 14:46:27 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 15
+[27-Mar-2019 14:46:27 UTC] PHP Warning:  include(): Failed opening 'database.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 15
+[27-Mar-2019 14:46:27 UTC] PHP Fatal error:  Class 'Database' not found in /home/gcorser/public_html/projects/healthyu/hu_transtypes_list.php on line 18
+[27-Mar-2019 14:46:31 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 15
+[27-Mar-2019 14:46:31 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 15
+[27-Mar-2019 14:46:31 UTC] PHP Warning:  include(): Failed opening 'database.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 15
+[27-Mar-2019 14:46:31 UTC] PHP Fatal error:  Class 'Database' not found in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 18
+[27-Mar-2019 14:46:35 UTC] PHP Notice:  Undefined index: id in /home/gcorser/public_html/projects/healthyu/session.php on line 3
+[27-Mar-2019 14:46:35 UTC] PHP Notice:  Undefined index: admin in /home/gcorser/public_html/projects/healthyu/hu_start.php on line 3
+[27-Mar-2019 14:46:46 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 26
+[27-Mar-2019 14:46:46 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 29
+[27-Mar-2019 14:46:48 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 26
+[27-Mar-2019 14:46:48 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 29
+[27-Mar-2019 14:48:18 UTC] PHP Notice:  Undefined index: admin in /home/gcorser/public_html/projects/healthyu/hu_start.php on line 3
+[27-Mar-2019 14:48:18 UTC] PHP Notice:  Undefined index: id in /home/gcorser/public_html/projects/healthyu/session.php on line 3
+[27-Mar-2019 14:48:35 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 26
+[27-Mar-2019 14:48:35 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 29
+[27-Mar-2019 14:57:26 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 26
+[27-Mar-2019 14:57:26 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 29
+[27-Mar-2019 15:04:57 UTC] PHP Notice:  Undefined index: admin in /home/gcorser/public_html/projects/healthyu/hu_start.php on line 3
+[27-Mar-2019 15:04:57 UTC] PHP Notice:  Undefined index: id in /home/gcorser/public_html/projects/healthyu/session.php on line 3
+[27-Mar-2019 15:05:10 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 26
+[27-Mar-2019 15:05:10 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 29
+[27-Mar-2019 15:07:13 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 26
+[27-Mar-2019 15:07:13 UTC] PHP Notice:  Use of undefined constant id - assumed 'id' in /home/gcorser/public_html/projects/healthyu/hu_login.php on line 29
+[27-Mar-2019 15:07:15 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 15
+[27-Mar-2019 15:07:15 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 15
+[27-Mar-2019 15:07:15 UTC] PHP Warning:  include(): Failed opening 'database.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 15
+[27-Mar-2019 15:07:15 UTC] PHP Fatal error:  Class 'Database' not found in /home/gcorser/public_html/projects/healthyu/hu_users_list.php on line 18
